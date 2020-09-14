@@ -4,8 +4,7 @@ class FilmItem extends Component {
     render() {
         return (
             <>
-                <h1>{this.props.name}</h1>
-                <h4>{this.props.url}</h4>
+                <a href={this.props.url}><h1>{this.props.film}</h1></a>
             </>
         );
     }
