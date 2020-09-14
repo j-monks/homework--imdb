@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FilmList from "../components/FilmList";
 
 class FilmTable extends Component {
     constructor() {
